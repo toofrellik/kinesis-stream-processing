@@ -1,0 +1,4 @@
+boto3==1.28.21
+psutil==5.9.5
+prometheus-client==0.16.0
+protobuf==4.24.0
