@@ -15,7 +15,7 @@ This project reads from an AWS Kinesis stream, processes Protobuf messages, and 
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/yourusername/kinesis-stream-processing.git
+    git clone https://github.com/toofrellik/kinesis-stream-processing.git
     cd kinesis-stream-processing
     ```
 
