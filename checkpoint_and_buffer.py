@@ -1,4 +1,3 @@
-# checkpoint_and_buffer.py
 import os
 
 # Checkpoint file path
@@ -33,7 +32,7 @@ def flush_buffer(process_json_records, unique_players, unique_logins_by_country,
 # Function to check and track unique records
 def find_unique_records(json_data):
     global processed_records
-    # Extract player_id and timestamp early
+    # Considering player_id and Timestamp as unique as all events are login events.
     player_id = json_data.get('playerId')
     timestamp_str = json_data.get('timestamp')
 
